@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="VectorDrawableCompat,RtlSymmetry">
+
+    <data>
+
+        <variable
+            name="viewModel"
+            type="com.maximus.moodtrack.ui.moodlist.MoodListViewModel" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:paddingStart="8dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/mood_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/background_mood_button"
+                android:contentDescription="@string/very_sad"
+                android:onClick="@{() -> viewModel.addMood(5)}"
+                android:padding="8dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/smile"
+                app:tint="@{viewModel.currentMood == 5 ? @color/colorMood5 : @color/colorDisabled}" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/mood_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/background_mood_button"
+                android:contentDescription="@string/sad"
+                android:onClick="@{() -> viewModel.addMood(4)}"
+                android:padding="8dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/smile"
+                app:tint="@{viewModel.currentMood == 4 ? @color/colorMood4 : @color/colorDisabled}" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/mood_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/background_mood_button"
+                android:contentDescription="@string/neutral"
+                android:onClick="@{() -> viewModel.addMood(3)}"
+                android:padding="8dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/smile"
+                app:tint="@{viewModel.currentMood == 3 ? @color/colorMood3 : @color/colorDisabled}" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/mood_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/background_mood_button"
+                android:contentDescription="@string/happy"
+                android:onClick="@{() -> viewModel.addMood(2)}"
+                android:padding="8dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/smile"
+                app:tint="@{viewModel.currentMood == 2 ? @color/colorMood2 : @color/colorDisabled}" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center">
+
+
+            <ImageButton
+                android:id="@+id/mood_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/background_mood_button"
+                android:contentDescription="@string/very_happy"
+                android:onClick="@{() -> viewModel.addMood(1)}"
+                android:padding="8dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/smile"
+                app:tint="@{viewModel.currentMood == 1 ? @color/colorMood1 : @color/colorDisabled}" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</layout>

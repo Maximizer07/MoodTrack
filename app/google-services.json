@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "620905821063",
+    "project_id": "moodtracker-72356",
+    "storage_bucket": "moodtracker-72356.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:620905821063:android:44477adfc2f1a943081922",
+        "android_client_info": {
+          "package_name": "com.maximus.moodtrack"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZpz3JcHJvV4GeoZl1BzNBlk5pY-mqZNw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

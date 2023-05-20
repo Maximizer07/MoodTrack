@@ -1,0 +1,58 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">MoodTrack</string>
+
+    <string name="error_description">Описание отсутсвует</string>
+    <string name="error_title">Заголовок отсутсвует</string>
+    <string name="error_tag_text">Введите текст</string>
+    <string name="enter_first_name">Введите фамилию</string>
+    <string name="enter_last_name">Введите имя</string>
+    <string name="enter_nickname">Введите никнейм</string>
+    <string name="enter_email">Введите почту</string>
+    <string name="invalid_email">Некорректный адрес почты</string>
+    <string name="enter_password">Введите пароль</string>
+    <string name="invalid_password">Пароль должен содержать не менее 8 символов</string>
+    <string name="logout">Выход</string>
+    <string name="noteListingFragment">Заметки</string>
+    <string name="taskListingFragment">Задания</string>
+    <string name="homes">Главная</string>
+    <string name="tasks">Задания</string>
+    <string name="home_fragment">Главная</string>
+    <string name="create_task">Задание создано</string>
+    <string name="create">Создано</string>
+    <string name="done">Готово</string>
+    <string name="error_task_detail">Описание задания отсутствует</string>
+    <string name="login">Войти</string>
+    <string name="tagline">Трекер настроения - контролируй свою жизнь</string>
+    <string name="email">Электронная почта</string>
+    <string name="forgotPassword">Забыли пароль?</string>
+    <string name="notRegistered">Еще не зарегестированы?</string>
+    <string name="send">Отправить</string>
+    <string name="rememberedPassword">Вспомнили пароль?</string>
+    <string name="forgotPasswordTitle">Забыли пароль</string>
+    <string name="register">Регистрация</string>
+    <string name="lastName">Фамилия</string>
+    <string name="firstName">Имя</string>
+    <string name="nickname">Никнейм</string>
+    <string name="password">Пароль</string>
+    <string name="alreadyRegistered">Уже зарегестированы?</string>
+    <string name="registration">Зарегестрироваться</string>
+    <string name="profile">Профиль</string>
+    <string name="save">Сохранить</string>
+    <string name="moods">Настроения</string>
+
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+
+    <string name="very_happy">Очень радостно</string>
+    <string name="neutral">Нормально</string>
+    <string name="very_sad">Очень грустно</string>
+    <string name="sad">Грустно</string>
+    <string name="happy">Радостно</string>
+
+    <string name="export">Экспорт</string>
+    <string name="calendar">Календарь</string>
+
+    <string name="no_moods" tools:keep="@string/no_moods">Нет доступных настроений</string>
+
+    <string name="Statistic">Статистика</string>
+</resources>

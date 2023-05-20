@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#3D3D3D</color>
+
+    <color name="text">#FFFFFF</color>
+    <color name="text_secondary">#FFFFFF</color>
+    <color name="text_button">#FFFFFF</color>
+    <color name="button">#FF3700B3</color>
+    <color name="popup">#575757</color>
+
+    <color name="notificationEnabledColor">#CBD6CB</color>
+    <color name="notificationDisabledColor">#FF3700B3</color>
+
+    <color name="colorCard">#413F3F</color>
+    <color name="colorCardBorder">#EAEAEA</color>
+
+    <color name="colorIcon">#555354</color>
+    <color name="colorDisabled">#C2C5CB</color>
+    <color name="colorMood1">#08FF00</color>
+    <color name="colorMood2">#ACFF37</color>
+    <color name="colorMood3">#FFC209</color>
+    <color name="colorMood4">#A13900</color>
+    <color name="colorMood5">#FF0000</color>
+    <color name="colorCalendarMood1">#8008FF00</color>
+    <color name="colorCalendarMood2">#80ACFF37</color>
+    <color name="colorCalendarMood3">#80FFC209</color>
+    <color name="colorCalendarMood4">#80A13900</color>
+    <color name="colorCalendarMood5">#80FF0000</color>
+
+
+    <color name="colorButton">#F5F6F8</color>
+    <color name="colorButtonPressed">#F1F1F1</color>
+
+    <color name="colorBackground">#FBFBFB</color>
+
+    <color name="line">#FFFFFF</color>
+    <color name="dayscalendar">#FFFFFF</color>
+    <color name="date_button">#FFFFFF</color>
+</resources>
